@@ -6,7 +6,10 @@ export interface Note {
   id: string;
   tripId: string;
   stopId?: string;
+  title: string;
   content: string;
+  day?: string;
+  stop?: string;
   createdAt: string;
 }
 
